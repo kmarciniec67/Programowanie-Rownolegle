@@ -1,0 +1,34 @@
+# Ignoruj domyślnie wszystkie pliki, pozwalając na wchodzenie do katalogów
+*
+!*/
+
+# Dozwolone pliki w repozytorium (tylko kod, biblioteki, makefile i dokumentacja PDF)
+!*.c
+!*.h
+!*.cpp
+!*.hpp
+!*.pdf
+!*.a
+!Makefile
+!*.tgz
+!.gitignore
+
+# Wykluczenie plików binarnych, obiektowych, skryptów, sprawozdań innych niż PDF oraz wyników
+*.o
+*.py
+*.sh
+*.docx
+*.md
+wyniki.txt
+_flags.txt
+_check.txt
+_check2.txt
+wyniki_surowe.txt
+tabele.txt
+maszyna.txt
+
+# Pliki tymczasowe edytorów i systemowe
+.*.swp
+*~
+.DS_Store
+.vscode/
