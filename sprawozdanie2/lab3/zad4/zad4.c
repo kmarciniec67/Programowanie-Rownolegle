@@ -37,7 +37,7 @@ int main() {
     // 2. Ustawienie niestandardowego rozmiaru stosu
     pthread_attr_setstacksize(&attr, nowy_rozmiar_stosu);
 
-    printf("Wątek główny: tworzenie wątku z niestandardowym stosom (4 MB)...\n");
+    printf("Wątek główny: tworzenie wątku z niestandardowym stosem (4 MB)...\n");
 
     // 3. Utworzenie wątku z przygotowanymi atrybutami
     pthread_create(&tid, &attr, zadanie_watku, NULL);

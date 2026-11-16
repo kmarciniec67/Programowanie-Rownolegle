@@ -12,6 +12,8 @@
 !Makefile
 !*.tgz
 !.gitignore
+!*.java
+*.class
 
 # Wykluczenie plików binarnych, obiektowych, skryptów, sprawozdań innych niż PDF oraz wyników
 *.o
