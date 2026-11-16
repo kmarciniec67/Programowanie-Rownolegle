@@ -13,7 +13,7 @@
 !*.tgz
 !.gitignore
 !*.java
-*.class
+!*.class
 
 # Wykluczenie plików binarnych, obiektowych, skryptów, sprawozdań innych niż PDF oraz wyników
 *.o
